@@ -19,15 +19,17 @@ The following steps will build to: `./luceedebug/build/libs/luceedebug.jar`
 
 #### Build Agent Jar on Mac / Linux
 
+In a terminal window, go into the project's directory and run:
+
 ```
-cd luceedebug
 ./gradlew shadowjar
 ```
 
 #### Build Agent Jar on Windows
 
+In a command prompt window, go into the project's directory and run:
+
 ```
-cd luceedebug
 gradlew.bat shadowjar
 ```
 
